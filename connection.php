@@ -1,5 +1,5 @@
 <?php
-// Exercise 1: Establish a connection to the database M07
+// Exercise 1: Establish a connection to the database 
 
 function create_connection(){
     $conn=mysqli_connect("localhost", "root","","M07");
