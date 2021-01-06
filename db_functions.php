@@ -91,7 +91,7 @@ function db_get_customer($id){
     $row = NULL;
     
     if($result){
-        $row = $result->fetch_assoc();
+        return $row = $result->fetch_assoc();
     }else{
         echo "Error query:" . mysqli_error($conn);
     }
